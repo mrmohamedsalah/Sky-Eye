@@ -1,0 +1,63 @@
+# ADS-B emitter category mapping used by the streaming and ML bridge pipelines.
+
+streaming_category_map:
+  0: NO_INFO
+  1: NO_ADS_B
+  2: LIGHT
+  3: SMALL
+  4: LARGE
+  5: HIGH_VORTEX
+  6: HEAVY
+  7: PERF_MANEUVER
+  8: ROTORCRAFT
+  9: GLIDER
+  10: LIGHTER_AIR
+  11: PARACHUTIST
+  12: ULTRALIGHT
+  13: RESERVED
+  14: UAV
+  15: SPACE
+  16: SURFACE_EMERG
+  17: SURFACE_SVC
+  18: POINT_OBSTACLE
+  19: CLUSTER_OBSTACLE
+  20: LINE_OBSTACLE
+
+gold_category_map:
+  A0: No ADS-B emitter category
+  A1: Light Aircraft
+  A2: Small Aircraft
+  A3: Large Aircraft
+  A4: High Vortex Large
+  A5: Heavy Aircraft
+  A6: High Performance
+  A7: Rotorcraft
+  B0: No ADS-B emitter category (B)
+  B1: Glider / Sailplane
+  B2: Lighter than Air
+  B3: Parachutist / Sky Diver
+  B4: Ultralight / Hang Glider
+  B5: Reserved
+  B6: UAV / Drone
+  B7: Space Vehicle
+  C0: No ADS-B emitter category (C)
+  C1: Surface Vehicle - Emergency
+  C2: Surface Vehicle - Service
+  C3: Fixed Ground Obstacle
+
+ml_bridge_category_map:
+  2: A1
+  3: A2
+  4: A3
+  5: A4
+  6: A5
+  7: A6
+  8: B1
+  9: B2
+  10: B3
+  11: C1
+  12: C2
+  14: C3
+  15: C4
+
+default_ml_category: A3

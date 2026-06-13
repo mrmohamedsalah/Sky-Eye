@@ -1,0 +1,13 @@
+pandas
+numpy
+requests
+kafka-python
+pyspark==3.5.0
+s3fs
+pyarrow
+snowflake-connector-python[pandas]
+snowflake-snowpark-python
+clickhouse-connect
+python-dotenv
+matplotlib
+jupyter

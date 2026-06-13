@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials/
+secrets/
+
+# Logs
+*.log
+logs/
+processed_files.txt
+
+# Raw / large data
+data/
+*.parquet
+*.snappy.parquet
+*.csv
+*.tar
+*.tar.*
+*.gz
+*.zip
+*.jsonl
+*.ndjson
+
+# Allow small lookup/sample files
+!streaming/lookups/icao_country_ranges.csv
+!data/sample/
+!data/sample/*.csv
+!data/sample/*.json
+
+# Spark
+spark-warehouse/
+metastore_db/
+checkpoints/
+.derby.log
+
+# Docker local volumes
+docker-data/
+volumes/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI temporary files
+*.pbit.tmp
