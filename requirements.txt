@@ -11,3 +11,4 @@ clickhouse-connect
 python-dotenv
 matplotlib
 jupyter
+
